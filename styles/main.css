@@ -1,0 +1,161 @@
+body {
+  background-color: #333e38;
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* INICIO NAVEGACION */
+
+#lista-navegacion
+{
+  width: 90%;
+}
+
+#lista-navegacion li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+/* FIN NAVEGACION */
+
+/* INICIO ACCESIBILIDAD */
+
+#seccion-accesibilidad {
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+}
+
+#menu-accesibilidad {
+  color: #ffffff;
+  background-color: #362c2b;
+  list-style-type: none; 
+  text-align: right;
+}
+
+#menu-accesibilidad li {
+  display: inline-block;
+  padding: 2px 7px; /* Separar el texto */
+  margin:5px; /* Separar los botones */
+  word-spacing:5px;
+}
+
+/* FIN ACCESIBILIDAD */
+
+/* INICIO DESTACADOS */
+
+#seccion-destacados {
+  color: #778c31;
+  background-color: #c4b799;
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+  text-align: center;
+}
+
+.elemento-resaltado {
+  position: relative;
+  float: center;
+  font-style: normal;
+  display: inline-block;
+  width: 10%;
+}
+
+/* FIN DESTACADOS */
+
+/* INICIO PIE */
+
+p {
+/* Anaheim para el texto normal, tamaños 14 y 12. */
+  font-family: 'Anaheim', sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+h1, h2 {
+/* 'Titillium Web' para menus y titulos, en regular y bold. Tamaños 24 y 18. */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+a {
+  color: #ffffff;
+}
+
+figure {
+  position:relative;
+  top:-55px;
+}
+
+#pie-pagina {
+  color: #000000;
+  background-color: #c4b799;
+  margin-left:auto;
+  margin-right:auto;
+  height:330px;
+  width:90%;
+}
+
+#siguenos-en {
+  color: #ffffff;
+  list-style-type: none; 
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 1px;
+}
+
+#iconos-redes-sociales {
+  list-style-type: none; 
+  text-align: right;
+  word-spacing:2.5px;
+  display: block;
+  width: 12%;
+  float: right;
+}
+
+#textos-pie-pagina {
+  text-align: left;
+  width: 60%;
+  position:relative;
+  top:-155px;
+  left:270px;
+  line-height:-50%
+}
+
+#enlaces-pie-pagina {
+  color: #ffffff;  
+  padding:0px;
+  margin:0px;
+  font-family: 'Anaheim', sans-serif;
+  font-weight: normal;
+  font-size: 14pt;
+}
+
+#hecho-con {
+  list-style-type: none; 
+  text-align: center;
+}
+
+#hecho-con, #enlaces-pie-pagina li {
+  display: inline-block;
+  list-style-type: none; 
+  list-style-position: outside;
+}
+
+#nota-al-pie {
+  text-align: center;
+  position:relative;
+  top:-135px;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+#iconos-redes-sociale {
+  color: #ffffff;
+  text-decoration:none;
+}
+
+/* FIN PIE */
