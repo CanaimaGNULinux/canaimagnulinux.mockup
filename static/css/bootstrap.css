@@ -185,8 +185,14 @@ html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(../fonts/Titillium_Web/TitilliumWeb.woff) format('woff');
+}
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web";
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
