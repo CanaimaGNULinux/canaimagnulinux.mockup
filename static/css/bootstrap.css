@@ -2516,7 +2516,7 @@ input[type="button"].btn-block {
 .navbar-canaima {
   background-color: #404d46;
   border-color: #e7e7e7;
-  padding-left:28%;
+  font-size:18px;
 }
 .navbar-default .navbar-brand {
   color: #fff;
