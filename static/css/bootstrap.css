@@ -641,6 +641,12 @@ address {
   margin-left: -15px;
   margin-right: -15px;
 }
+
+.contenedor-busqueda {
+  margin-left: -5px;
+  margin-right: 0px;
+}
+
 .row:before,
 .row:after {
   content: " ";
