@@ -2368,6 +2368,11 @@ input[type="button"].btn-block {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
+
+
+
+
 @media (min-width: 768px) {
   .navbar-form .form-group {
     display: inline-block;
@@ -2407,6 +2412,68 @@ input[type="button"].btn-block {
     box-shadow: none;
   }
 }
+
+.formulario {
+  float: right !important;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 0px 0px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+@media (min-width: 768px) {
+  .formulario .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .formulario .form-control {
+    display: inline-block;
+  }
+  .formulario .radio,
+  .formulario .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .formulario .radio input[type="radio"],
+  .formulario .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .formulario .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .formulario {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+
+
+
+
+
+
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
