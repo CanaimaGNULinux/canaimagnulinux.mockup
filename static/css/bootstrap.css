@@ -2138,7 +2138,7 @@ input[type="button"].btn-block {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 .navbar-header:before,
