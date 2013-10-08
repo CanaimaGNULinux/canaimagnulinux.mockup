@@ -3359,6 +3359,11 @@ td.visible-print {
   margin:5px; /* Separar los botones */
   word-spacing:5px;
 }
+.titulo{
+  font-size: 30px;
+  color: #778c31;
+  font-weight: bold;
+}
 .titulo-blanco{
   margin-top: 20px;
   color: #fff;
