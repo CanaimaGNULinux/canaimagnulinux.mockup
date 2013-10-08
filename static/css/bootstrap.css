@@ -271,8 +271,6 @@ img {
 .img-circle {
   border-radius: 50%;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -304,7 +302,6 @@ img {
 
 
 
->>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -693,6 +690,13 @@ address {
 .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+
+
+
+.row-caja-logos {
+  margin-top: -20px;
+  padding: 40px 20px 10px 0px;
 }
 
 .contenedor-busqueda {
@@ -1997,16 +2001,6 @@ input[type="button"].btn-block {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-<<<<<<< HEAD
-  text-decoration: none;
-  background-color: #eeeeee;
-=======
-  /*text-decoration: none;
-  background-color: #eeeeee; */
-  color: #5e5e5e;
-  background-color: transparent;
-  text-decoration: none;
->>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
 }
 .nav > li.disabled > a {
   color: #999999;
