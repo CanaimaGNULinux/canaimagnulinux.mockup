@@ -25,6 +25,7 @@ summary {
 }
 .footer-marron {
   background-color: #cdc0a3;
+  padding: 30px 0px 30px 0px;
 }
 audio,
 canvas,
@@ -3390,4 +3391,8 @@ td.visible-print {
 {
   color: #cdc0a3;
   text-decoration: underline;
+}
+.fondo-contenido
+{
+  background-color: #F5F2ED
 }
