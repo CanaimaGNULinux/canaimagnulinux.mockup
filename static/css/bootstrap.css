@@ -23,7 +23,7 @@ section,
 summary {
   display: block;
 }
-footer {
+.footer-marron {
   background-color: #cdc0a3;
 }
 audio,
