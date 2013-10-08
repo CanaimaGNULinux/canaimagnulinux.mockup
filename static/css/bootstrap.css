@@ -38,6 +38,22 @@ audio:not([controls]) {
 [hidden] {
   display: none;
 }
+
+.footer-verde {
+  background-color: #778c31;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden] {
+  display: none;
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -3359,6 +3375,12 @@ td.visible-print {
   font-weight: bold;
   font-size: 16px;
 }
+.parrafo-blanco{
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+}
 #link-marron,
 #link-marron:hover,
 #link-marron:focus
@@ -3367,3 +3389,10 @@ td.visible-print {
   text-decoration: none;
 }
 
+#link-marron-claro,
+#link-marron-claro:hover,
+#link-marron-claro:focus
+{
+  color: #cdc0a3;
+  text-decoration: underline;
+}

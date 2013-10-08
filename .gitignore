@@ -9,6 +9,8 @@
 *.EGG-INFO
 *.kpf
 *.swp
+*.swn
+*.swo
 *.wpr
 .*.cfg
 .installed.cfg
