@@ -3360,10 +3360,14 @@ td.visible-print {
   margin:5px; /* Separar los botones */
   word-spacing:5px;
 }
+.texto{
+  font-size: 18px;
+}
 .titulo{
-  font-size: 30px;
+  font-size: 31px;
   color: #778c31;
   font-weight: bold;
+  margin: 20px 0 20px 0;
 }
 .titulo-blanco{
   margin-top: 20px;
