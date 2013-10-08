@@ -255,6 +255,40 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+ 
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px; /* same as the footer */
+}
+ 
+.push {
+    height: 50px; /* same as the footer */
+}
+.footer-wrapper {
+    position: relative;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+>>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1628,8 +1662,13 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #333333;
+<<<<<<< HEAD
   background-color: #ebebeb;
   border-color: #adadad;
+=======
+  border-color: #adadad;
+  text-decoration: none;
+>>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
 }
 .btn-default:active,
 .btn-default.active,
@@ -1942,8 +1981,16 @@ input[type="button"].btn-block {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
+<<<<<<< HEAD
   text-decoration: none;
   background-color: #eeeeee;
+=======
+  /*text-decoration: none;
+  background-color: #eeeeee; */
+  color: #5e5e5e;
+  background-color: transparent;
+  text-decoration: none;
+>>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3306,6 +3353,7 @@ td.visible-print {
   margin:5px; /* Separar los botones */
   word-spacing:5px;
 }
+<<<<<<< HEAD
 .titulo-blanco{
   margin-top: 20px;
   color: #fff;
@@ -3320,3 +3368,5 @@ td.visible-print {
   text-decoration: none;
 }
 
+=======
+>>>>>>> b05957deeef0abec33c86a4025dacdb2e3b0b11f
