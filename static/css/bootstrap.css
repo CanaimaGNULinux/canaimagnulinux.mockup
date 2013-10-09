@@ -3400,3 +3400,13 @@ td.visible-print {
 {
   background-color: #F5F2ED
 }
+.separador-verde
+{
+  display: block; 
+  height: 5px;
+  border: 0; 
+  border-top: 3px 
+  solid #778c31;
+  margin: 1em 0; 
+  padding: 0; 
+}
