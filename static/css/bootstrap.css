@@ -3361,6 +3361,7 @@ td.visible-print {
 }
 .texto{
   font-size: 18px;
+  color: #362c2b;
 }
 .titulo{
   font-size: 31px;
@@ -3423,3 +3424,13 @@ td.visible-print {
     text-align: center;
 }
 
+.separador-marron
+{
+  display: block; 
+  height: 5px;
+  border: 0; 
+  border-top: 3px 
+  solid #cdc0a3;
+  margin: 1em 0; 
+  padding: 0; 
+}
