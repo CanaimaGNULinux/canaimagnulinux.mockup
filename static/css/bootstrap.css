@@ -3371,7 +3371,7 @@ td.visible-print {
 }
 .titulo2{
   font-size: 24px;
-  color: #778c31;
+  color: #44785b;
   font-weight: bold;
   margin: 20px 0 20px 0;
 }
@@ -3395,6 +3395,13 @@ td.visible-print {
   text-decoration: none;
 }
 
+#link-verde2,
+#link-verde2:hover,
+#link-verde2:focus
+{
+  color: #44785b;
+  text-decoration: none;
+}
 #link-marron-claro,
 #link-marron-claro:hover,
 #link-marron-claro:focus
@@ -3416,12 +3423,18 @@ td.visible-print {
   margin: 1em 0; 
   padding: 0; 
 }
-.columna2 {
+@media (min-width: 992px) {
+.columna1 {
     margin: -20px 0 20px 0;
     height: 100%;
     width:15px;
     background: #44785b;
     text-align: center;
+}
+.columna {
+    background: src("static/images/columna.png") repeat-x;
+    text-align: center;
+}
 }
 
 .separador-marron
