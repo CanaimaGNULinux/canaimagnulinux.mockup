@@ -3431,6 +3431,14 @@ td.visible-print {
     background: #44785b;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+.fondo-imagen {
+  background-image: url(../images/slider_index.png);
+}
+
+>>>>>>> 40b1550f51bb42f953516c963babd63af1b0486c
 .columna {
     background: src("static/images/columna.png") repeat-x;
     text-align: center;
