@@ -3423,19 +3423,6 @@ td.visible-print {
   margin: 1em 0; 
   padding: 0; 
 }
-@media (min-width: 992px) {
-.columna1 {
-    margin: -20px 0 20px 0;
-    height: 100%;
-    width:15px;
-    background: #44785b;
-    text-align: center;
-}
-.columna {
-    background: src("static/images/columna.png") repeat-x;
-    text-align: center;
-}
-}
 
 .separador-marron
 {
