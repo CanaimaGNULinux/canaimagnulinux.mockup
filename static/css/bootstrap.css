@@ -3433,4 +3433,7 @@ td.visible-print {
     background: #44785b;
     text-align: center;
 }
+.fondo-imagen {
+  background-image: url(../images/slider_principal.png);
+}
 
