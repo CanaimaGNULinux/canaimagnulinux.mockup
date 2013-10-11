@@ -3387,24 +3387,24 @@ td.visible-print {
   font-weight: bold;
   font-size: 10px;
 }
-#link-marron,
-#link-marron:hover,
-#link-marron:focus
+.link-marron,
+.link-marron:hover,
+.link-marron:focus
 {
   color: #362c2b;
   text-decoration: none;
 }
 
-#link-verde2,
-#link-verde2:hover,
-#link-verde2:focus
+.link-verde2,
+.link-verde2:hover,
+.link-verde2:focus
 {
   color: #44785b;
   text-decoration: none;
 }
-#link-marron-claro,
-#link-marron-claro:hover,
-#link-marron-claro:focus
+.link-marron-claro,
+.link-marron-claro:hover,
+.link-marron-claro:focus
 {
   color: #cdc0a3;
   text-decoration: underline;
