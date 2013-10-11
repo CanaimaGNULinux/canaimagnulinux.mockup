@@ -442,8 +442,8 @@ body {
   padding-top:    10px;
   padding-bottom: 10px;
   text-shadow: 0 1px 0 #fff;
-  background-color: #f7f5fa;
   border-radius: 5px;
+  visibility: hidden;
 }
 
 /* All levels of nav */
@@ -451,11 +451,11 @@ body {
   display: block;
   color: #716b7a;
   padding: 5px 20px;
+  visibility: visible;
 }
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e5e3e9;
   border-right: 1px solid #dbd8e0;
 }
 .bs-sidebar .nav > .active > a,
@@ -577,6 +577,7 @@ h1[id] {
 
 .show-grid {
   margin-bottom: 15px;
+    visibility: hidden;
 }
 .show-grid [class^="col-"] {
   padding-top: 10px;
