@@ -3448,7 +3448,8 @@ td.visible-print {
 }
 
 .fondo-imagen {
-  background-image: url(../images/slider_principal.png);
+  background-image: url(../images/slider_index.png);
+}
 
 .columna {
     background: src("static/images/columna.png") repeat-x;
