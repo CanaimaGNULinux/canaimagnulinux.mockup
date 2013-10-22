@@ -16,7 +16,7 @@ Características
 Descargas
 =========
 
-Usted puede encontrar la versión de desarrollo del paquete ``canaimagnulinux.web.kerepakupaitheme``
+Usted puede encontrar la versión de desarrollo del paquete ``canaimagnulinux.web.mockup``
 en el `repositorio Canaima GNU/Linux`_ en Github.com.
 
 Autor(es) Original(es)
@@ -40,9 +40,9 @@ Colaboraciones impresionantes
 
 
 Para una lista actualizada de todo los colaboradores visite:
-https://github.com/canaimagnulinux/canaimagnulinux.web.kerepakupaitheme/contributors
+https://github.com/canaimagnulinux/canaimagnulinux.web.mockup/contributors
 
 .. _Diazo: http://pypi.python.org/pypi/diazo
 .. _sitio Web de Canaima GNU/Linux: http://canaima.softwarelibre.gob.ve/
-.. _repositorio Canaima GNU/Linux: https://github.com/canaimagnulinux/canaimagnulinux.web.kerepakupaitheme
+.. _repositorio Canaima GNU/Linux: https://github.com/canaimagnulinux/canaimagnulinux.web.mockup
 
