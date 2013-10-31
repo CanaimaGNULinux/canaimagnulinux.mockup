@@ -3363,11 +3363,20 @@ td.visible-print {
   font-size: 18px;
   color: #362c2b;
 }
+.texto-blanco{
+  font-size: 18px;
+  color: #fff;
+}
 .titulo{
   font-size: 31px;
   color: #778c31;
   font-weight: bold;
   margin: 20px 0 20px 0;
+}
+.titulo1{
+  font-size: 18px;
+  color: #778c31;
+  font-weight: bold;
 }
 .titulo2{
   font-size: 24px;
@@ -3380,6 +3389,12 @@ td.visible-print {
   color: #fff;
   font-weight: bold;
   font-size: 16px;
+}
+.titulo-blanco1{
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  
 }
 .parrafo-blanco{
   margin-top: 10px;
@@ -3422,6 +3437,16 @@ td.visible-print {
   solid #778c31;
   margin: 1em 0; 
   padding: 0; 
+}
+.separador-gris
+{
+  display: block; 
+  width: 160px;
+  border: 0; 
+  border-top: 2px 
+  solid #D3D3D3;
+  
+  margin: 5px 0px 5px 0px;
 }
 @media (min-width: 992px) {
 .columna1 {
