@@ -46,3 +46,9 @@ https://github.com/canaimagnulinux/canaimagnulinux.web.mockup/contributors
 .. _sitio Web de Canaima GNU/Linux: http://canaima.softwarelibre.gob.ve/
 .. _repositorio Canaima GNU/Linux: https://github.com/canaimagnulinux/canaimagnulinux.web.mockup
 
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/CanaimaGNULinux/canaimagnulinux.web.mockup/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
