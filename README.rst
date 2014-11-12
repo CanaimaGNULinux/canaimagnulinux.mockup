@@ -24,6 +24,10 @@ Autor(es) Original(es)
 
 * Leonardo J .Caballero G. aka macagua
 
+* Eliezer J. Romero C.  aka  eliezerfot123
+
+* Rodrigo L. Bravo Q.   aka  goidor
+
 * Axel Diaz aka Axelio
 
 * Dehivis Perez aka dehivix
