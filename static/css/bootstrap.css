@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: 'Anaheim';
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -910,7 +910,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: Anaheim;
   font-size: inherit;
   line-height: inherit;
 }
@@ -999,7 +999,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Anaheim;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5982,7 +5982,7 @@ button.close {
   width: 20px;
   height: 20px;
   margin-top: -10px;
-  font-family: serif;
+  font-family: Anaheim;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
