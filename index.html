@@ -9,7 +9,7 @@
 
         <!-- Bootstrap -->
         <link href="static/css/bootstrap.css" rel="stylesheet">
-        <link href="static/css/bootstrap-theme.css" rel="stylesheet">
+        <link href="static/css/canaima-theme.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,23 +20,68 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="">
                 <div class="col-md-8">
-                    <img src="static/images/logo-gob.png" alt="">
+                    <img src="static/images/logo-gob.png"  alt="">
                 </div>
                 <div class="col-md-4">
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Buscar En el Sitio...">
-                    </div>
-                    <img src="static/images/lupa.png">
-                    <button type="submit" class="btn btn-default">Buscar</button>
-                </form>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar En el Sitio...">
+                        </div>
+                        <img src="static/images/lupa.png">
+                        <button type="submit" class="btn btn-default">BUSCAR</button>
+                    </form>
                 </div>
             </div>
-            
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <nav role="navigation" class="navbar navbar-default">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a title="Inicio" href="http://canaima.softwarelibre.gob.ve/">Inicio</a></li>
+                    <li><a title="Enciclopedia colaborativa" href="http://wiki.canaima.softwarelibre.gob.ve/">Enciclopedia</a></li>
+                    <li><a title="Reporta en Canaima" href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/newticket">Reporta</a></li>
+                    <li><a title="" href="#">Blog</a></li>
+                    <li><a title="Preguntas" href="http://preguntas.canaima.org.ve/">Preguntas</a></li>
+                    <li><a title="Vídeo Conferencias" href="http://envivo.canaima.softwarelibre.gob.ve/">Vídeo Conferencias</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a title="Registro único" href="http://registro.canaima.softwarelibre.gob.ve/">Registro único</a></li>
+                    <li class="active"><a title="Inicio de sesion" href="http://canaima.softwarelibre.gob.ve/login_form">Entrar</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+        <ol class="breadcrumb text-right">
+            <li><a href="">Accesibilidad</a></li>
+            <li><a href="">(A) Texto normal</a></li>
+            <li><a href="">(A+) Texto grande</a></li>
+            <li><a href="">(A-) Texto pequeño</a></li>
+            <li><a href="#">Contrastes</a></li>
+            <li><a href="">Escala Grises</a></li>
+        </ol>
+        <nav class="navbar navbar-canaima" role="navigation">
+            <div class="navbar-header pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="canaima.html" title="Canaima"><strong>Canaima</strong></a></li>
+                    <li><a href="soluciones.html" title="Soluciones"><strong>Soluciones</strong></a></li>
+                    <li><a href="soporte.html" title="Soporte y Aprendizaje"><strong>Soporte y Aprendizaje</strong></a></li>
+                    <li><a href="descargas.html" title="Descargas"><strong>Descargas</strong></a></li>
+                    <li><a href="comunidad.html" title="Comunidad"><strong>Comunidad</strong></a></li>
+                    <li><a href="novedades.html" title="Novedades"><strong>Novedades</strong></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-center">
+            <img alt="" src="static/images/canaima.png" width="347" height="99"> 
+        </div>
+            
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        -->
+        
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="static/js/bootstrap.js"></script>
     </body>
