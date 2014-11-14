@@ -5,6 +5,11 @@
   src:  url("../fonts/Anaheim/Anaheim-Regular.woff") format('woff');
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .btn-default {
   color: #fff;
   background-color: #778c31;

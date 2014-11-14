@@ -20,8 +20,8 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="">
-                <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8 hidden-xs">
                     <img src="static/images/logo-gob.png"  alt="">
                 </div>
                 <div class="col-md-4">
@@ -34,8 +34,7 @@
                     </form>
                 </div>
             </div>
-        </div>
-        <nav role="navigation" class="navbar navbar-default">
+        <nav role="navigation" class="navbar navbar-default collapse navbar-collapse">
             <div class="navbar-header">
                 <ul class="nav navbar-nav">
                     <li class="active"><a title="Inicio" href="http://canaima.softwarelibre.gob.ve/">Inicio</a></li>
@@ -53,7 +52,7 @@
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
-        <ol class="breadcrumb text-right">
+        <ol class="breadcrumb text-right collapse navbar-collapse">
             <li><a href="">Accesibilidad</a></li>
             <li><a href="">(A) Texto normal</a></li>
             <li><a href="">(A+) Texto grande</a></li>
@@ -61,7 +60,7 @@
             <li><a href="#">Contrastes</a></li>
             <li><a href="">Escala Grises</a></li>
         </ol>
-        <nav class="navbar navbar-canaima" role="navigation">
+        <nav class="navbar navbar-canaima collapse navbar-collapse" role="navigation">
             <div class="navbar-header pull-right">
                 <ul class="nav navbar-nav">
                     <li><a href="canaima.html" title="Canaima"><strong>Canaima</strong></a></li>
@@ -84,5 +83,6 @@
         
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="static/js/bootstrap.js"></script>
+        </div>
     </body>
 </html>
