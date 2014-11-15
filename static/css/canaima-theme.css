@@ -358,6 +358,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: #ddd;
 }
 
+a.marron,
+a.marron:hover,
+a.marron:focus {
+  color: #362c2b;
+}
+
+a.blanco,
+a.blanco:hover,
+a.blanco:focus {
+  color: #fff;
+}
+
 a.verde,
 a.verde:hover,
 a.verde:focus {
@@ -367,4 +379,8 @@ a.verde:focus {
 .v-spacer {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.fondo-marron-claro {
+  background-color: #b2a382;
 }
