@@ -22,19 +22,19 @@ en el `repositorio Canaima GNU/Linux`_ en Github.com.
 Autor(es) Original(es)
 ======================
 
-* Leonardo J .Caballero G. aka macagua
+* Leonardo J .Caballero G. aka _macagua: https://github.com/macagua
 
-* Eliezer J. Romero C.  aka  eliezerfot123
+* Eliezer J. Romero C.  aka  _eliezerfot123: https://github.com/eliezerfot123
 
-* Rodrigo L. Bravo Q.   aka  goidor
+* Rodrigo L. Bravo Q.   aka  _goidor: https://github.com/goidor
 
-* Axel Diaz aka Axelio
+* Axel Diaz aka _Axelio: https://github.com/Axelio
 
-* Dehivis Perez aka dehivix
+* Dehivis Perez aka _dehivix: https://github.com/dehivix
 
-* Miguel Sanabria aka masc1293
+* Miguel Sanabria aka _masc1293: https://github.com/masc1293
 
-* Ericka Ackseriam aka erickaackseriam
+* Ericka Ackseriam aka _erickaackseriam: https://github.com/erickaackseriam
 
 
 Colaboraciones impresionantes
