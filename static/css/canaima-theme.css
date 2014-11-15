@@ -384,6 +384,9 @@ a.verde:focus {
 .fondo-marron-claro {
   background-color: #b2a382;
 }
+.fondo-verde-claro {
+  background-color: #778c31;
+}
 
 .panel-default > .panel-heading {
   background-color: #b2a382;
