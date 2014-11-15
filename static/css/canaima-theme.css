@@ -336,3 +336,35 @@ fieldset[disabled] .navbar-default .btn-link:hover,
 fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #362c2b;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #4a571f;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #4a571f;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+a.verde,
+a.verde:hover,
+a.verde:focus {
+  color: #4a571f;
+}
+
+.v-spacer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
