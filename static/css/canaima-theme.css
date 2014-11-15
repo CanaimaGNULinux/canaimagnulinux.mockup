@@ -45,12 +45,23 @@
   }
 }
 
-.breadcrumb.accesibilidad {
+.breadcrumb {
   padding: 8px 15px;
   margin-bottom: 0px;
   list-style: none;
   border-radius: 0px;
   font-family: Anaheim;
+  background-color: #cdc0a3;
+}
+
+.breadcrumb > li > a  {
+  color: #4a571f;
+  letter-spacing: -0.03em;
+  height: 24px;
+}
+
+.breadcrumb > .active {
+  color: #fff;
 }
 
 .breadcrumb.accesibilidad {
@@ -71,9 +82,6 @@
   padding: 0 5px;
   color: #fff;
   content: "|";
-}
-.breadcrumb.accesibilidad > .active {
-  color: #fff;
 }
 
 .btn {
