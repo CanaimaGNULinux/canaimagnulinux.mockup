@@ -370,10 +370,22 @@ a.blanco:focus {
   color: #fff;
 }
 
+a.beige,
+a.beige:hover,
+a.beige:focus {
+  color: #cdc0a3;
+}
+
 a.verde,
 a.verde:hover,
 a.verde:focus {
   color: #4a571f;
+}
+
+p.blanco,
+p.blanco:hover,
+p.blanco:focus {
+  color: #fff;
 }
 
 .v-spacer {
@@ -415,6 +427,12 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 .panel-heading {
 padding: 10px 15px;
 border-bottom: 0px solid transparent;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+
+.pie {
+padding: 40px 15px;
 border-top-left-radius: 3px;
 border-top-right-radius: 3px;
 }
