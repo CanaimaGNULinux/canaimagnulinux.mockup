@@ -45,30 +45,34 @@
   }
 }
 
-.breadcrumb {
+.breadcrumb.accesibilidad {
   padding: 8px 15px;
   margin-bottom: 0px;
   list-style: none;
-  background-color: #362c2b;
   border-radius: 0px;
   font-family: Anaheim;
 }
-.breadcrumb > li {
+
+.breadcrumb.accesibilidad {
+  background-color: #362c2b;
+}
+
+.breadcrumb.accesibilidad > li {
   display: inline-block;
 }
 
-.breadcrumb > li > a  {
+.breadcrumb.accesibilidad > li > a  {
   color: #fff;
   letter-spacing: -0.03em;
   height: 24px;
 }
 
-.breadcrumb > li + li:before {
+.breadcrumb.accesibilidad > li + li:before {
   padding: 0 5px;
   color: #fff;
   content: "|";
 }
-.breadcrumb > .active {
+.breadcrumb.accesibilidad > .active {
   color: #fff;
 }
 
