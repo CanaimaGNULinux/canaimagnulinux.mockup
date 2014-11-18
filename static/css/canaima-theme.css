@@ -459,15 +459,15 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 hr.verde{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   border: 0;
   border-top: 2px solid #c2ddcb;
 }
 
 hr.marron{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   border: 0;
   border-top: 2px solid #b2a382;
 }
