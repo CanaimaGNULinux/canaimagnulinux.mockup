@@ -337,6 +337,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    color: #fff;
+    background-color: #778c31;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    color: #fff;
+    background-color: #778c31;
+}
+
 .pagination > li > a, .pagination > li > span {
     position: relative;
     float: left;
@@ -396,8 +408,17 @@ p.blanco:focus {
 .fondo-marron-claro {
   background-color: #b2a382;
 }
+
 .fondo-verde-claro {
   background-color: #778c31;
+}
+
+.fondo-verde-agua {
+  background-color: #c2ddcb;
+}
+
+.fondo-blanco {
+  background-color: #fff;
 }
 
 .panel-default > .panel-heading {
@@ -425,14 +446,38 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 .panel-heading {
-padding: 10px 15px;
-border-bottom: 0px solid transparent;
-border-top-left-radius: 3px;
-border-top-right-radius: 3px;
+  padding: 10px 15px;
+  border-bottom: 0px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .pie {
-padding: 40px 15px;
-border-top-left-radius: 3px;
-border-top-right-radius: 3px;
+  padding: 40px 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+hr.verde{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #c2ddcb;
+}
+
+hr.marron{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #b2a382;
+}
+
+.container.margen-7 {
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1.verde {
+  color: #778c31;
 }
