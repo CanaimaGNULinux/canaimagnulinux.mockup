@@ -472,6 +472,11 @@ hr.marron{
   border-top: 2px solid #b2a382;
 }
 
+hr.sin_espacio{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .container.margen-7 {
   width: auto;
   margin-left: 10%;
