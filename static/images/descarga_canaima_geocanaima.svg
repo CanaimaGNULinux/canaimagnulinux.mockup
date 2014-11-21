@@ -1,19 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<g>
-	<path fill="#6D8D24" d="M306.003,208.598c-46.532,0-84.386,37.853-84.386,84.386c0,46.528,37.854,84.372,84.386,84.372
-		c46.528,0,84.38-37.848,84.38-84.372C390.383,246.451,352.531,208.598,306.003,208.598z M319.947,228.874
-		c23.258,5.058,41.955,22.458,48.832,44.996l-11.561,11.555l-2.529-16.497l-24.18-3.701l-3.695-24.18l-16.512-2.529L319.947,228.874
-		z M241.894,306.938l14.227-14.231l2.003,17.027l24.932,2.935l2.944,24.928l17.022,2.021l-16.132,16.142
-		C264.357,348.888,246.96,330.195,241.894,306.938z M306.003,358.611c-1.384,0-2.728-0.111-4.089-0.203l28.186-28.176l-32.837-3.881
-		l-2.944-24.918l-24.937-2.944l-3.866-32.846l-25.025,25.033c1.2-34.341,28.855-61.996,63.196-63.205l-19.681,19.69l31.85,4.864
-		l3.695,24.175l24.17,3.692l4.873,31.849l22.838-22.837c0.088,1.356,0.207,2.699,0.207,4.083
-		C371.635,329.175,342.189,358.611,306.003,358.611z"/>
-	<rect x="222.902" y="446.296" fill="#C8B18B" width="166.195" height="27.576"/>
-	<polygon fill="#6D8D24" points="303.665,545.467 222.754,486.119 222.754,524.046 303.665,583.402 389.246,520.613 
-		389.246,482.677 	"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="168.76601"
+   height="374.80399"
+   viewBox="0 0 168.76601 374.80399"
+   enable-background="new 0 0 612 792"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="descarga_canaima_geocanaima.svg"><metadata
+   id="metadata3026"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3024" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3022"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.2979798"
+   inkscape:cx="84.383"
+   inkscape:cy="187.402"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3014"
+   transform="translate(-221.617,-208.598)">
+	<path
+   d="m 306.003,208.598 c -46.532,0 -84.386,37.853 -84.386,84.386 0,46.528 37.854,84.372 84.386,84.372 46.528,0 84.38,-37.848 84.38,-84.372 0,-46.533 -37.852,-84.386 -84.38,-84.386 z m 13.944,20.276 c 23.258,5.058 41.955,22.458 48.832,44.996 l -11.561,11.555 -2.529,-16.497 -24.18,-3.701 -3.695,-24.18 -16.512,-2.529 9.645,-9.644 z m -78.053,78.064 14.227,-14.231 2.003,17.027 24.932,2.935 2.944,24.928 17.022,2.021 -16.132,16.142 c -22.533,-6.872 -39.93,-25.565 -44.996,-48.822 z m 64.109,51.673 c -1.384,0 -2.728,-0.111 -4.089,-0.203 l 28.186,-28.176 -32.837,-3.881 -2.944,-24.918 -24.937,-2.944 -3.866,-32.846 -25.025,25.033 c 1.2,-34.341 28.855,-61.996 63.196,-63.205 l -19.681,19.69 31.85,4.864 3.695,24.175 24.17,3.692 4.873,31.849 22.838,-22.837 c 0.088,1.356 0.207,2.699 0.207,4.083 -0.004,36.188 -29.45,65.624 -65.636,65.624 z"
+   id="path3016"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
+	<rect
+   x="222.90199"
+   y="446.29599"
+   width="166.19501"
+   height="27.576"
+   id="rect3018"
+   style="fill:#c8b18b" />
+	<polygon
+   points="303.665,583.402 389.246,520.613 389.246,482.677 303.665,545.467 222.754,486.119 222.754,524.046 "
+   id="polygon3020"
+   style="fill:#6d8d24" />
 </g>
 </svg>

@@ -1,42 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<g>
-	<polygon fill="#6D8D24" points="414.205,324.956 414.205,307.535 393.727,307.535 393.727,286.554 376.307,286.554 
-		376.307,324.956 	"/>
-	<polygon fill="#6D8D24" points="417.314,461.249 378.92,461.257 378.92,499.155 396.322,499.155 396.34,478.669 417.314,478.669 	
-		"/>
-	<polygon fill="#6D8D24" points="305.598,563.921 290.825,549.036 278.459,561.308 305.513,588.558 332.412,561.845 
-		320.133,549.488 	"/>
-	<polygon fill="#6D8D24" points="459.09,410.455 471.387,422.795 498.594,395.69 471.83,368.842 459.5,381.139 473.949,395.647 	"/>
-	<polygon fill="#6D8D24" points="306.384,228.083 321.174,242.968 333.523,230.696 306.469,203.442 279.57,230.149 291.85,242.515 	
-		"/>
-	<polygon fill="#6D8D24" points="152.893,381.54 140.596,369.209 113.406,396.313 140.152,423.162 152.5,410.865 138.034,396.356 	
-		"/>
-	<polygon fill="#6D8D24" points="200.305,464.221 200.305,481.642 220.784,481.633 220.784,502.614 238.204,502.614 
-		238.204,464.212 	"/>
-	<polygon fill="#6D8D24" points="197.385,325.537 235.779,325.537 235.779,287.639 218.358,287.63 218.358,308.116 197.385,308.116 
-			"/>
-	<path fill="#6D8D24" d="M371.713,459.028V330.132H242.815v128.896H371.713z M354.291,347.552v94.056h-94.072l0.018-94.056H354.291z
-		"/>
-	<path fill="#6D8D24" d="M344.914,432.239v-75.311h-75.318v75.303L344.914,432.239z M327.494,374.341v40.486h-40.478v-40.486
-		H327.494z"/>
-	<polygon fill="#6D8D24" points="316.803,404.136 316.803,385.032 297.708,385.041 297.708,404.136 	"/>
-	<rect x="378.15" y="332.292" fill="#6D8D24" width="17.422" height="121.288"/>
-	<polygon fill="#6D8D24" points="404.623,453.699 422.045,453.708 422.045,333.001 404.623,333.001 	"/>
-	<polygon fill="#6D8D24" points="448.482,456.475 448.5,335.768 431.08,335.768 431.08,456.475 	"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="385.18799"
+   height="385.116"
+   viewBox="0 0 385.18799 385.116"
+   enable-background="new 0 0 612 792"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="redesSociales_email.svg"><metadata
+   id="metadata3122"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3120" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3118"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.2979798"
+   inkscape:cx="192.594"
+   inkscape:cy="192.558"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3070"
+   transform="translate(-113.406,-203.442)">
+	<polygon
+   points="393.727,286.554 376.307,286.554 376.307,324.956 414.205,324.956 414.205,307.535 393.727,307.535 "
+   id="polygon3072"
+   style="fill:#6d8d24" />
+	<polygon
+   points="396.322,499.155 396.34,478.669 417.314,478.669 417.314,461.249 378.92,461.257 378.92,499.155 "
+   id="polygon3074"
+   style="fill:#6d8d24" />
+	<polygon
+   points="305.513,588.558 332.412,561.845 320.133,549.488 305.598,563.921 290.825,549.036 278.459,561.308 "
+   id="polygon3076"
+   style="fill:#6d8d24" />
+	<polygon
+   points="471.83,368.842 459.5,381.139 473.949,395.647 459.09,410.455 471.387,422.795 498.594,395.69 "
+   id="polygon3078"
+   style="fill:#6d8d24" />
+	<polygon
+   points="306.469,203.442 279.57,230.149 291.85,242.515 306.384,228.083 321.174,242.968 333.523,230.696 "
+   id="polygon3080"
+   style="fill:#6d8d24" />
+	<polygon
+   points="140.152,423.162 152.5,410.865 138.034,396.356 152.893,381.54 140.596,369.209 113.406,396.313 "
+   id="polygon3082"
+   style="fill:#6d8d24" />
+	<polygon
+   points="220.784,502.614 238.204,502.614 238.204,464.212 200.305,464.221 200.305,481.642 220.784,481.633 "
+   id="polygon3084"
+   style="fill:#6d8d24" />
+	<polygon
+   points="218.358,287.63 218.358,308.116 197.385,308.116 197.385,325.537 235.779,325.537 235.779,287.639 "
+   id="polygon3086"
+   style="fill:#6d8d24" />
+	<path
+   d="M 371.713,459.028 V 330.132 H 242.815 V 459.028 H 371.713 z M 354.291,347.552 v 94.056 h -94.072 l 0.018,-94.056 h 94.054 z"
+   id="path3088"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
+	<path
+   d="m 344.914,432.239 v -75.311 h -75.318 v 75.303 l 75.318,0.008 z m -17.42,-57.898 v 40.486 h -40.478 v -40.486 h 40.478 z"
+   id="path3090"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
+	<polygon
+   points="297.708,404.136 316.803,404.136 316.803,385.032 297.708,385.041 "
+   id="polygon3092"
+   style="fill:#6d8d24" />
+	<rect
+   x="378.14999"
+   y="332.29199"
+   width="17.422001"
+   height="121.288"
+   id="rect3094"
+   style="fill:#6d8d24" />
+	<polygon
+   points="404.623,333.001 404.623,453.699 422.045,453.708 422.045,333.001 "
+   id="polygon3096"
+   style="fill:#6d8d24" />
+	<polygon
+   points="431.08,456.475 448.482,456.475 448.5,335.768 431.08,335.768 "
+   id="polygon3098"
+   style="fill:#6d8d24" />
 	
-		<rect x="245.625" y="492.794" transform="matrix(1 0.0029 -0.0029 1 1.4766 -0.9078)" fill="#6D8D24" width="127.479" height="17.42"/>
+		<rect
+   x="245.625"
+   y="492.79401"
+   transform="matrix(1,0.0029,-0.0029,1,1.4766,-0.9078)"
+   width="127.479"
+   height="17.42"
+   id="rect3100"
+   style="fill:#6d8d24" />
 	
-		<rect x="245.625" y="518.041" transform="matrix(1 0.0029 -0.0029 1 1.5185 -0.8889)" fill="#6D8D24" width="127.479" height="17.421"/>
-	<polygon fill="#6D8D24" points="372.361,483.93 372.412,466.509 245.531,466.142 245.479,483.554 	"/>
-	<polygon fill="#6D8D24" points="368.484,322.42 368.484,305.008 243.311,304.999 243.311,322.42 	"/>
-	<rect x="243.191" y="278.535" fill="#6D8D24" width="124.592" height="17.421"/>
-	<rect x="243.191" y="253.283" fill="#6D8D24" width="124.592" height="17.412"/>
-	<polygon fill="#6D8D24" points="209.579,332.232 192.175,332.352 193.046,456.577 210.467,456.458 	"/>
-	<polygon fill="#6D8D24" points="166.608,333.581 167.479,457.808 184.899,457.679 184.029,333.462 	"/>
-	<polygon fill="#6D8D24" points="236.922,456.586 236.051,332.94 218.648,333.061 219.502,456.705 	"/>
+		<rect
+   x="245.625"
+   y="518.04102"
+   transform="matrix(1,0.0029,-0.0029,1,1.5185,-0.8889)"
+   width="127.479"
+   height="17.421"
+   id="rect3102"
+   style="fill:#6d8d24" />
+	<polygon
+   points="245.479,483.554 372.361,483.93 372.412,466.509 245.531,466.142 "
+   id="polygon3104"
+   style="fill:#6d8d24" />
+	<polygon
+   points="243.311,322.42 368.484,322.42 368.484,305.008 243.311,304.999 "
+   id="polygon3106"
+   style="fill:#6d8d24" />
+	<rect
+   x="243.19099"
+   y="278.535"
+   width="124.592"
+   height="17.421"
+   id="rect3108"
+   style="fill:#6d8d24" />
+	<rect
+   x="243.19099"
+   y="253.283"
+   width="124.592"
+   height="17.412001"
+   id="rect3110"
+   style="fill:#6d8d24" />
+	<polygon
+   points="210.467,456.458 209.579,332.232 192.175,332.352 193.046,456.577 "
+   id="polygon3112"
+   style="fill:#6d8d24" />
+	<polygon
+   points="184.029,333.462 166.608,333.581 167.479,457.808 184.899,457.679 "
+   id="polygon3114"
+   style="fill:#6d8d24" />
+	<polygon
+   points="219.502,456.705 236.922,456.586 236.051,332.94 218.648,333.061 "
+   id="polygon3116"
+   style="fill:#6d8d24" />
 </g>
 </svg>
