@@ -491,6 +491,10 @@ p.verde {
   color: #778c31;
 }
 
+.espacio_50 {
+  margin-top: 50px;
+}
+
 .espacio_100 {
   margin-top: 100px;
 }
