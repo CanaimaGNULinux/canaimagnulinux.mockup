@@ -184,7 +184,7 @@
   background-color: #ddd;
 }
 .navbar-canaima .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #FFF;
 }
 .navbar-canaima .navbar-collapse,
 .navbar-canaima .navbar-form {
@@ -283,7 +283,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #778C31;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #FFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
