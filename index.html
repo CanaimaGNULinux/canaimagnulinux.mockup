@@ -21,10 +21,10 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9 col-sm-6 hidden-xs">
+                <div class="col-md-8 col-lg-8 hidden-xs">
                     <img src="static/images/logo-gob.png"  alt="">
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-lg-4 hidden-xs">
                     <form class="navbar-form navbar-right" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Buscar En el Sitio...">
@@ -34,25 +34,35 @@
                     </form>
                 </div>
             </div>
-        <nav role="navigation" class="navbar navbar-default collapse navbar-collapse">
+        <nav role="navigation" class="navbar navbar-default">
             <div class="navbar-header">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a title="Inicio" href="http://canaima.softwarelibre.gob.ve/">Inicio</a></li>
-                    <li><a title="Enciclopedia colaborativa" href="http://wiki.canaima.softwarelibre.gob.ve/">Enciclopedia</a></li>
-                    <li><a title="Reporta en Canaima" href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/newticket">Reporta</a></li>
-                    <li><a title="" href="#">Blog</a></li>
-                    <li><a title="Preguntas" href="http://preguntas.canaima.org.ve/">Preguntas</a></li>
-                    <li><a title="Vídeo Conferencias" href="http://envivo.canaima.softwarelibre.gob.ve/">Vídeo Conferencias</a></li>
-                </ul>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse">
+                    
+                </div>
             </div>
-            <div class="collapse navbar-collapse navbar-right">
-                <ul class="nav navbar-nav">
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                        <li class="active"><a title="Inicio" href="http://canaima.softwarelibre.gob.ve/">Inicio</a></li>
+                        <li><a title="Enciclopedia colaborativa" href="http://wiki.canaima.softwarelibre.gob.ve/">Enciclopedia</a></li>
+                        <li><a title="Reporta en Canaima" href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/newticket">Reporta</a></li>
+                        <li><a title="" href="#">Blog</a></li>
+                        <li><a title="Preguntas" href="http://preguntas.canaima.org.ve/">Preguntas</a></li>
+                        <li><a title="Vídeo Conferencias" href="http://envivo.canaima.softwarelibre.gob.ve/">Vídeo Conferencias</a></li>
+                    </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li><a title="Registro único" href="http://registro.canaima.softwarelibre.gob.ve/">Registro único</a></li>
                     <li class="active"><a title="Inicio de sesion" href="http://canaima.softwarelibre.gob.ve/login_form">Entrar</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </nav>
-        <ol class="breadcrumb accesibilidad text-right collapse navbar-collapse">
+            </div>
+        </nav><!-- /.navbar-collapse -->
+        <ol class="breadcrumb text-right collapse navbar-collapse">
             <li><a href="">Accesibilidad</a></li>
             <li><a href="">(A) Texto normal</a></li>
             <li><a href="">(A+) Texto grande</a></li>
@@ -73,18 +83,16 @@
                 </ul>
             </div>
         </nav>
-        <div class="text-center">
-            <img alt="" src="static/images/canaima.png" width="347" height="99"> 
+            
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5 col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5 col-xs-8 col-xs-offset-2">
+                <img alt="" src="static/images/canaima.png" class="img-responsive"> 
+            </div>
         </div>
-        <!-- Carrusel -->
-            
-            
-            
-            
-            
+        <!-- Carrusel -->   
             
         <!-- Método de slider jquery boostrap -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -141,11 +149,36 @@
         </div>
         <!-- endcarrusel -->
             
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoComunidad.png" class="img-responsive"></a>
+            </div>
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoCarac.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoOC.png" class="img-responsive"></a>
+            </div>
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoCE.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoAyuda.png" class="img-responsive"></a>
+            </div>
+            <div class="col-xs-6 col-sm-3 hidden-lg hidden-md hidden-sm">
+                <a href=""><img src="static/images/signoDocumen.png" class="img-responsive"></a>
+            </div>
+        </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="static/js/jquery.min.js"></script>
         <script src="static/js/bootstrap.js"></script>
-        </div>
+        </div> <!-- container-fluid -->
     </body>
 </html>
