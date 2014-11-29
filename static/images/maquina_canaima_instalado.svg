@@ -1,14 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<g>
-	<path fill="#6D8D24" d="M329.024,528.738v-34.323H478.08V229.859H132.329v264.556h149.054v34.323H135.242v33.402h344.429v-33.402
-		H329.024z M168.412,458.349V265.943h273.584v192.405H168.412z"/>
-	<path fill="#6D8D24" d="M198.481,437.299h213.446V286.966H198.481V437.299z M305.99,305.996c30.658,0,55.498,24.849,55.498,55.489
-		c0,30.667-24.857,55.516-55.498,55.516c-30.667,0-55.506-24.866-55.506-55.516C250.484,330.844,275.332,305.996,305.99,305.996z"/>
-	<path fill="#6D8D24" d="M305.99,333.74c15.33,0,27.763,12.433,27.763,27.762c0,15.33-12.433,27.762-27.763,27.762
-		c-15.338,0-27.762-12.433-27.762-27.762C278.229,346.173,290.652,333.74,305.99,333.74z"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="347.34201"
+   height="332.28101"
+   viewBox="0 0 347.34201 332.28101"
+   enable-background="new 0 0 612 792"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="maquina_canaima_instalado.svg"><metadata
+   id="metadata2999"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs2997" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview2995"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.2979798"
+   inkscape:cx="173.671"
+   inkscape:cy="166.14"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g2987"
+   transform="translate(-132.329,-229.859)">
+	<path
+   d="M 329.024,528.738 V 494.415 H 478.08 V 229.859 H 132.329 v 264.556 h 149.054 v 34.323 H 135.242 V 562.14 H 479.671 V 528.738 H 329.024 z M 168.412,458.349 V 265.943 H 441.996 V 458.348 H 168.412 z"
+   id="path2989"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
+	<path
+   d="M 198.481,437.299 H 411.927 V 286.966 H 198.481 V 437.299 z M 305.99,305.996 c 30.658,0 55.498,24.849 55.498,55.489 0,30.667 -24.857,55.516 -55.498,55.516 -30.667,0 -55.506,-24.866 -55.506,-55.516 0,-30.641 24.848,-55.489 55.506,-55.489 z"
+   id="path2991"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
+	<path
+   d="m 305.99,333.74 c 15.33,0 27.763,12.433 27.763,27.762 0,15.33 -12.433,27.762 -27.763,27.762 -15.338,0 -27.762,-12.433 -27.762,-27.762 10e-4,-15.329 12.424,-27.762 27.762,-27.762 z"
+   id="path2993"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
 </g>
 </svg>

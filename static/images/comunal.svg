@@ -13,17 +13,17 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="330.72601"
-   height="330.72601"
-   viewBox="0 0 330.72601 330.72601"
+   width="285.54599"
+   height="237.354"
+   viewBox="0 0 285.54599 237.354"
    enable-background="new 0 0 612 792"
    xml:space="preserve"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="obtener_codigos_fuentes.svg"><metadata
-   id="metadata3073"><rdf:RDF><cc:Work
+   sodipodi:docname="comunal.svg"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-   id="defs3071" /><sodipodi:namedview
+   id="defs13" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -34,22 +34,39 @@
    inkscape:pageshadow="2"
    inkscape:window-width="640"
    inkscape:window-height="480"
-   id="namedview3069"
+   id="namedview11"
    showgrid="false"
    fit-margin-top="0"
    fit-margin-left="0"
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="0.2979798"
-   inkscape:cx="165.363"
-   inkscape:cy="165.363"
+   inkscape:cx="142.773"
+   inkscape:cy="118.677"
    inkscape:window-x="0"
    inkscape:window-y="27"
    inkscape:window-maximized="0"
    inkscape:current-layer="Layer_1" />
-<path
-   d="M 330.726,0.017 88.05,0 v 242.685 h 117.356 l 0.008,50.754 H 37.279 L 37.287,125.32 H 88.033 V 88.041 H 0 V 330.71 l 242.693,0.016 -0.016,-88.033 h 88.049 V 0.017 z M 210.168,124.475 293.455,73.681 v 27.543 l -84.1,51.331 -84.026,-51.274 V 72.73 l 84.839,51.745 z m 0,-37.393 -81.613,-49.787 163.226,0.008 -81.613,49.779 z m -84.839,118.324 v -66.757 l 84.026,51.282 84.1,-51.315 v 66.781 l -168.126,0.009 z"
-   id="path3067"
-   inkscape:connector-curvature="0"
+<g
+   id="g3"
+   transform="translate(-163.227,-277.323)">
+	<rect
+   x="163.22701"
+   y="277.323"
+   width="47.032001"
+   height="47.032001"
+   id="rect5"
    style="fill:#6d8d24" />
+	<polygon
+   points="237.511,419.562 270.123,419.562 270.123,513.608 297.301,513.608 297.301,392.384 210.333,392.384 210.333,487.498 190.406,487.498 190.406,368.529 421.594,368.529 421.594,487.498 401.668,487.498 401.668,392.384 314.699,392.384 314.699,513.608 341.867,513.608 341.867,419.562 374.488,419.562 374.488,514.677 448.773,514.677 448.773,341.351 163.227,341.351 163.227,514.677 237.511,514.677 "
+   id="polygon7"
+   style="fill:#6d8d24" />
+	<rect
+   x="401.73999"
+   y="277.323"
+   width="47.014"
+   height="47.032001"
+   id="rect9"
+   style="fill:#6d8d24" />
+</g>
 </svg>

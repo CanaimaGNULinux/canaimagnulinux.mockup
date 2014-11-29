@@ -1,15 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<g>
-	<g>
-		<path fill="#6D8D24" d="M433.115,523.111H178.884V268.888h254.231V523.111z M199.393,502.611h213.222V289.388H199.393V502.611z"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="254.231"
+   height="254.22301"
+   viewBox="0 0 254.231 254.22301"
+   enable-background="new 0 0 612 792"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="fecha.svg"><metadata
+   id="metadata3005"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3003" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3001"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.2979798"
+   inkscape:cx="127.116"
+   inkscape:cy="127.111"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g2991"
+   transform="translate(-178.884,-268.888)">
+	<g
+   id="g2993">
+		<path
+   d="M 433.115,523.111 H 178.884 V 268.888 h 254.231 v 254.223 z m -233.722,-20.5 H 412.615 V 289.388 H 199.393 v 213.223 z"
+   id="path2995"
+   inkscape:connector-curvature="0"
+   style="fill:#6d8d24" />
 	</g>
-	<g>
-		<polygon fill="#6D8D24" points="317.594,419.973 244.059,419.973 244.059,399.473 297.093,399.473 297.093,316.317 
-			317.594,316.317 		"/>
+	<g
+   id="g2997">
+		<polygon
+   points="297.093,399.473 297.093,316.317 317.594,316.317 317.594,419.973 244.059,419.973 244.059,399.473 "
+   id="polygon2999"
+   style="fill:#6d8d24" />
 	</g>
 </g>
 </svg>
