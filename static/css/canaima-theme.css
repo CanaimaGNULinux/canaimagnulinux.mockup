@@ -494,3 +494,15 @@ p.verde {
 .espacio_100 {
   margin-top: 100px;
 }
+
+.med_marron {
+    background-color: #CDC0A3;
+
+}
+
+.titulo {
+    font-size: 31px;
+    color: #778C31;
+    font-weight: bold;
+    margin: 20px 0px;
+}
