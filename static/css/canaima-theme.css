@@ -505,8 +505,62 @@ p.verde {
 }
 
 .titulo {
-    font-size: 31px;
+    font-family: Anaheim;
+    font-size: 20px;
     color: #778C31;
     font-weight: bold;
-    margin: 20px 0px;
+    margin: auto;
+}
+
+
+.back-content {
+    background-color: #f5f2ed;
+}
+
+.title_one {
+    font-size: 18px;
+    color: #778C31;
+    font-weight: bold;
+    font-family: Anaheim;
+}
+
+
+.jumbotron {
+  padding: 0px 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #f5f2ed;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #f5f2ed;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 3px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
 }
