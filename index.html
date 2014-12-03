@@ -465,12 +465,31 @@
                     </p>
                 </div>
             </div>
+            <a href="#" class="scrollup">Scroll</a>
             <!-- endfooter -->
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="static/js/jquery.min.js"></script>
             <script src="static/js/bootstrap.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+
+                    $(window).scroll(function(){
+                        if ($(this).scrollTop() > 100) {
+                            $('.scrollup').fadeIn();
+                        } else {
+                            $('.scrollup').fadeOut();
+                        }
+                    });
+
+                    $('.scrollup').click(function(){
+                        $("html, body").animate({ scrollTop: 0 }, 600);
+                        return false;
+                    });
+
+                });
+            </script>
         </div>
         <!-- container-fluid -->
     </body>
