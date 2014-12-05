@@ -472,6 +472,13 @@ hr.marron{
   border-top: 2px solid #b2a382;
 }
 
+hr.marron_sin_espacio {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 4px solid #b2a382;
+}
+
 hr.sin_espacio{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -575,4 +582,12 @@ p.verde {
     display:none;
     text-indent:-9999px;
     background: url('../images/icon_top.png') no-repeat;
+}
+
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5px;
 }
