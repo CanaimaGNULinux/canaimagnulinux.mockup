@@ -184,7 +184,7 @@
   background-color: #ddd;
 }
 .navbar-canaima .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #FFF;
 }
 .navbar-canaima .navbar-collapse,
 .navbar-canaima .navbar-form {
@@ -283,7 +283,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #778C31;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #FFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -472,6 +472,13 @@ hr.marron{
   border-top: 2px solid #b2a382;
 }
 
+hr.marron_sin_espacio {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 4px solid #b2a382;
+}
+
 hr.sin_espacio{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -497,4 +504,90 @@ p.verde {
 
 .espacio_100 {
   margin-top: 100px;
+}
+
+.med_marron {
+    background-color: #CDC0A3;
+
+}
+
+.titulo {
+    font-family: Anaheim;
+    font-size: 26px;
+    color: #778C31;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+.back-content {
+    background-color: #f5f2ed;
+}
+
+.title_one {
+    font-size: 18px;
+    color: #778C31;
+    font-weight: bold;
+    font-family: Anaheim;
+}
+
+
+.jumbotron {
+  padding: 0px 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #f5f2ed;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #f5f2ed;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 3px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/icon_top.png') no-repeat;
+}
+
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5px;
 }
