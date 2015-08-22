@@ -1,281 +1,784 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <title>Canaima GNU/Linux &mdash; Portal Canaima GNU/Linux</title>
-      <meta charset="UTF-8">
-      <link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico" />
-      <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" media="all" />
-      <script src="static/js/jquery.js" type="text/javascript"></script>
-      <script src="static/js/bootstrap.js" type="text/javascript"></script>
-    </head>
-    <body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="static/images/canaima_logo.ico" />
+    <title>Canaima Gnu/Linux</title>
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/canaima-theme.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
     <div class="container-fluid">
-        <img src="static/images/logo-gob.png" alt="" /> 
-        <form class="formulario" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Buscar en el sitio">
+        <div class="row">
+            <div class="col-md-9 col-sm-6 hidden-xs">
+                <img src="static/images/logo-gob.png"  alt="">
             </div>
-            <img src="static/images/lupa.png" alt="" /> <button type="submit" class="btn btn-default">BUSCAR</button>
-        </form>
-
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="http://canaima.softwarelibre.gob.ve/" title="Inicio">Inicio</a></li>
-              <li><a href="http://wiki.canaima.softwarelibre.gob.ve/" title="Enciclopedia colaborativa">Enciclopedia</a></li>
-              <li><a href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/newticket" title="Reporta en Canaima">Reporta</a></li>
-              <li><a href="#" title="">Blog</a></li>
-              <li><a href="http://preguntas.canaima.org.ve/" title="Preguntas">Preguntas</a></li>
-              <li><a href="http://envivo.canaima.softwarelibre.gob.ve/" title="V&iacute;deo Conferencias">V&iacute;deo Conferencias</a></li>
-            </ul>
-          </div>
-
-          <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
-            <ul class="nav navbar-nav">
-              <li><a href="http://registro.canaima.softwarelibre.gob.ve/" title="Registro único">Registro único</a></li>
-              <li class="active-strong"><a href="http://canaima.softwarelibre.gob.ve/login_form" title="Inicio de sesion">Entrar</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </nav>
-        
-        <div id="seccion-accesibilidad">
-          <ul id="menu-accesibilidad" style="margin-bottom:0">
-            <li class="icon-bullseye icon-large icon-4x"> Accesibilidad</li>
-            <li class="icon-font icon-large">(A) Texto normal</li>
-            <li class="icon-superscript icon-large">(A+) Texto grande</li>
-            <li class="icon-subscript icon-large">(A-) Texto pequeño</li>
-            <li class="icon-adjust icon-large"> Contraste</li>
-            <li class="icon-flag-checkered icon-large"> Escala grises</li>
-          </ul>
+            <div class="col-md-3 col-sm-6">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar En el Sitio...">
+                    </div>
+                    <img src="static/images/lupa.png">
+                    <button type="submit" class="btn btn-default">BUSCAR</button>
+                </form>
+            </div>
         </div>
-
-        <nav class="navbar navbar-canaima" role="navigation">
-          <div class="navbar-header pull-right">
+    <nav role="navigation" class="navbar navbar-default collapse navbar-collapse">
+        <div class="navbar-header">
             <ul class="nav navbar-nav">
-              <li><a href="canaima.html" title="Canaima">Canaima</a></li>
-              <li><a href="soluciones.html" title="Soluciones">Soluciones</a></li>
-              <li><a href="soporte.html" title="Soporte y Aprendizaje">Soporte y Aprendizaje</a></li>
-              <li><a href="descargas.html" title="Descargas">Descargas</a></li>
-              <li><a href="comunidad.html" title="Comunidad">Comunidad</a></li>
-              <li><a href="novedades.html" title="Novedades">Novedades</a></li>
+                <li class="active"><a title="Inicio" href="http://canaima.softwarelibre.gob.ve/">Inicio</a></li>
+                <li><a title="Enciclopedia colaborativa" href="http://wiki.canaima.softwarelibre.gob.ve/">Enciclopedia</a></li>
+                <li><a title="Reporta en Canaima" href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/newticket">Reporta</a></li>
+                <li><a title="" href="#">Blog</a></li>
+                <li><a title="Preguntas" href="http://preguntas.canaima.org.ve/">Preguntas</a></li>
+                <li><a title="Vídeo Conferencias" href="http://envivo.canaima.softwarelibre.gob.ve/">Vídeo Conferencias</a></li>
             </ul>
-          </div>
-        </nav>
-        <div class="text-center">
-            <img src="static/images/logo.png" alt="" /> 
         </div>
+        <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a title="Registro único" href="http://registro.canaima.softwarelibre.gob.ve/">Registro único</a></li>
+                <li class="active"><a title="Inicio de sesion" href="http://canaima.softwarelibre.gob.ve/login_form">Entrar</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    <ol class="breadcrumb accesibilidad text-right collapse navbar-collapse">
+        <li><a href="">Accesibilidad</a></li>
+        <li><a href="">(A) Texto normal</a></li>
+        <li><a href="">(A+) Texto grande</a></li>
+        <li><a href="">(A-) Texto pequeño</a></li>
+        <li><a href="#">Contrastes</a></li>
+        <li><a href="">Escala Grises</a></li>
+    </ol>
+
+    <nav class="navbar navbar-canaima collapse navbar-collapse" role="navigation">
+        <div class="navbar-header pull-right">
+            <ul class="nav navbar-nav">
+                <li><a href="canaima.html" title="Canaima"><strong>Canaima</strong></a></li>
+                <li><a href="soluciones.html" title="Soluciones"><strong>Soluciones</strong></a></li>
+                <li><a href="soporte.html" title="Soporte y Aprendizaje"><strong>Soporte y Aprendizaje</strong></a></li>
+                <li><a href="descargas.html" title="Descargas"><strong>Descargas</strong></a></li>
+                <li><a href="comunidad.html" title="Comunidad"><strong>Comunidad</strong></a></li>
+                <li><a href="novedades.html" title="Novedades"><strong>Novedades</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-center">
+        <img alt="" src="static/images/canaima.png" width="347" height="99"> 
     </div>
-    
-    <h1>AQU&Iacute; VA EL CUERPO DE LA P&Aacute;GINA</h1>
-    
-    <footer>
-        <div class="footer-marron">
-            <div class="container">
+        
+    <div class="container">
+        <ol class="breadcrumb sombra">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="active">Comunidad</li>
+        </ol>
+    </div> <!-- /.container -->
+
+        <div class="container text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62814.88796848567!2d-67.60541045!3d10.26718390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803c989377fe87%3A0xb5ff524dadae5b74!2sMaracay!5e0!3m2!1ses-419!2sve!4v1416077168712" width="800" height="600" frameborder="0" style="border:0"></iframe>
+</div>
+
+        <div class="container">
+            <h1 class="verde">Comunidad</h1>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p>La comunidad del proyecto Canaima se encuentra esparcida en toda la geografía venezolana haciendo que cada día más sea un mejor proyecto en pro de nuestra soberanía tecnológica.</p>
+                </div> <!-- /.col -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+
+        <hr class="verde" />
+
+        <div class="container">
+            <div class="row">
+                <h1 class="verde">Usuarios registrados para Canaima</h1>
+                <p>Para 2014 cuenta con XXXXX usuarios registrados en el proyecto Canaima.</p>
+
+                <div class="col-all-12 text-center">
+                    <nav>
+                        <ul class="pagination pull-center">
+                            <li><a href="#">Primera</a></li>
+                            <li><a href="#">A</a></li>
+                            <li><a href="#">B</a></li>
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">D</a></li>
+                            <li><a href="#">E</a></li>
+                            <li><a href="#">F</a></li>
+                            <li><a href="#">G</a></li>
+                            <li><a href="#">H</a></li>
+                            <li><a href="#">I</a></li>
+                            <li><a href="#">J</a></li>
+                            <li><a href="#">J</a></li>
+                            <li><a href="#">L</a></li>
+                            <li><a href="#">M</a></li>
+                            <li><a href="#">N</a></li>
+                            <li><a href="#">O</a></li>
+                            <li><a href="#">P</a></li>
+                            <li><a href="#">Q</a></li>
+                            <li><a href="#">R</a></li>
+                            <li><a href="#">S</a></li>
+                            <li><a href="#">T</a></li>
+                            <li><a href="#">U</a></li>
+                            <li><a href="#">V</a></li>
+                            <li><a href="#">W</a></li>
+                            <li><a href="#">X</a></li>
+                            <li><a href="#">Y</a></li>
+                            <li><a href="#">Z</a></li>
+                            <li><a href="#">Última</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- /.col -->
+            </div> <!-- /.row-->
+        </div> <!-- /.container -->
+
+        <div class="container-fluid fondo-verde-agua">
+            <div class="container margen-7 fondo-blanco">
                 <div class="row">
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Canaima
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Conozca Canaima</a><br />
-                            <a class="link-marron" href="#">Caracter&iacute;sticas</a><br />
-                            <a class="link-marron" href="#">¿Qu&eacute; hay de nuevo?</a><br />
-                            <a class="link-marron" href="#">Testimonios</a><br />
-                            <a class="link-marron" href="#">Casos de &eacute;xito</a>
-                            <br />
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pedro Sinforo</a></h3>
+                                    <p>Caracas, Distrito Capital</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pinguino Bipolar</a></h3>
+                                    <p>Maracaibo, Zulia</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Juan Vicente García</a></h3>
+                                    <p>Libertador Mérida</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>San Cristóbal, Táchira</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>Puerto Ordaz, Bolívar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pedro Sinforo</a></h3>
+                                    <p>Caracas, Distrito Capital</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pinguino Bipolar</a></h3>
+                                    <p>Maracaibo, Zulia</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Juan Vicente García</a></h3>
+                                    <p>Libertador Mérida</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>San Cristóbal, Táchira</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>Puerto Ordaz, Bolívar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pedro Sinforo</a></h3>
+                                    <p>Caracas, Distrito Capital</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pinguino Bipolar</a></h3>
+                                    <p>Maracaibo, Zulia</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Juan Vicente García</a></h3>
+                                    <p>Libertador Mérida</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>San Cristóbal, Táchira</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>Puerto Ordaz, Bolívar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pedro Sinforo</a></h3>
+                                    <p>Caracas, Distrito Capital</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Pinguino Bipolar</a></h3>
+                                    <p>Maracaibo, Zulia</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Juan Vicente García</a></h3>
+                                    <p>Libertador Mérida</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>San Cristóbal, Táchira</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="static/images/circle_100x100.svg" class="media-object" alt="Sample Image">
+                                </a>
+                                <div class="media-body">
+                                    <h3 class="media-middle"><a class="verde">Rodrigo Lara</a></h3>
+                                    <p>Puerto Ordaz, Bolívar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- /.col -->
+                </div> <!-- /.row -->
+
+                <div class="col-all-12 text-center">
+                    <nav>
+                        <ul class="pagination pull-center">
+                            <li><a href="#"><span aria-hidden="true">Anterior</span><span class="sr-only">Anterior</span></a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#">9</a></li>
+                            <li><a href="#"><span aria-hidden="true">Siguiente</span><span class="sr-only">Siguiente</span></a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- /.col -->
+
+                <div class="row">
+                    <hr class="verde sin_espacio" />
+                    <h1 class="text-center verde">Por Entidad Federal</h1>
+                    <hr class="verde sin_espacio" />
+                    <div class="col-md-3 col-sm-6 col-xm-12">
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Amazonas</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Anzoátegui</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Apure</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Aragua</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Barinas</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Bolívar</a></p>
                     </div>
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Soluciones
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Sector Gobierno</a><br />
-                            <a class="link-marron" href="#">Sector Comunal</a><br />
-                            <a class="link-marron" href="#">Geom&aacute;tica</a><br />
-                            <a class="link-marron" href="#">Inform&aacute;tica forense</a>
-                            <br />
+                    <div class="col-md-3 col-sm-6 col-xm-12">
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Carabobo</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Cojedes</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Delta Amacuro</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Distrito Capital</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Dependencias Federales</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Falcón</a></p>
                     </div>
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Soporte y Aprendizaje
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Necesita ayuda</a><br />
-                            <a class="link-marron" href="#">Quiero aprender</a><br />
-                            <a class="link-marron" href="#">Consultor&iacute;a</a><br />
-                            <a class="link-marron" href="#">Mercado de servicios</a>
-                            <br />
+                    <div class="col-md-3 col-sm-6 col-xm-12">
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Guárico</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Lara</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Mérida</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Miranda</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Monagas</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Nueva Esparta</a></p>
                     </div>
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Descargas
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Obtener Canaima</a><br />
-                            <a class="link-marron" href="#">Obtener c&oacute;digos fuentes</a><br />
-                            <a class="link-marron" href="#">Complementos del RNA</a>
-                            <br />
+                    <div class="col-md-3 col-sm-6 col-xm-12">
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Portuguesa</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Sucre</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Táchira</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Trujillo</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Yaracuy</a></p>
+                        <p><a class="verde" href=#><span class="glyphicon glyphicon-flag"></span> Zulia</a></p>
                     </div>
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Comunidad
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Unirte a Canaima</a><br />
-                            <a class="link-marron" href="#">Estar conectado</a><br />
-                            <a class="link-marron" href="#">Organizaci&oacute;n</a><br />
-                            <a class="link-marron" href="#">Equipos</a><br />
-                            <a class="link-marron" href="#">Forja</a><br />
-                            <a class="link-marron" href="#">Reuniones</a><br />
-                            <a class="link-marron" href="#">Grupo</a><br />
-                            <a class="link-marron" href="#">Opini&oacute;n</a><br />
-                            <a class="link-marron" href="#">Galer&iacute;a de diseño</a><br />
-                            <br />
-                    </div>
-                    <div class="col-md-2">
-                        <div class="titulo-blanco">
-                            Soporte
-                        </div>
-                            <br />
-                            <a class="link-marron" href="#">Conozca Canaima</a><br />
-                            <a class="link-marron" href="#">Caracter&iacute;sticas</a><br />
-                            <a class="link-marron" href="#">¿Qu&eacute; hay de nuevo?</a><br />
-                            <a class="link-marron" href="#">Testimonios</a><br />
-                            <a class="link-marron" href="#">Casos de &eacute;xito</a>
-                            <br />
-                    </div>
-                </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+
+        </div> <!-- /.container-fluid -->
+            <div class="espacio_100">
+
+                <div class="container">
+                    <div class="col-sm-6 col-xs-12 text-center">
+                        <div class="caption">
+                            <ul class="media-list">
+                            <li class="media">
+                                <div class="row">
+                                    <div class="col-md-6 text-right">
+                                        <a href=# class="verde"><img src="static/images/unirse_canaima.svg" height="100px" alt="...">
+                                    </div>
+                                    <div class="col-md-6 text-left">
+                                        <h3> <b>Unirse a Canaima</b></a></h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            Las formas de participación del proyecto Canaima son diversas, tanto para desarrolladores de GNU/Linux con experiencia como para recién llegados al mundo del Software Libre
+                        </p>
+                        <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                        </div><!-- /.caption -->
+                    </div><!-- /.col -->
+                    <div class="col-sm-6 col-xs-12 text-center">
+                        <div class="caption">
+                            <ul class="media-list">
+                            <li class="media">
+                                <div class="row">
+                                    <div class="col-md-6 text-right">
+                                        <a href=# class="verde"><img src="static/images/estar_conectado.svg" height="100px" alt="...">
+                                    </div>
+                                    <div class="col-md-6 text-left">
+                                        <h3><b>Estar conectado</b></a></h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            Conéctate con nosotros a través de las redes sociales y ayúdanos a socializar el proyecto Canaima en la web.
+                        </p>
+                        <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                        </div><!-- /.caption -->
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.espacio_100 -->
+
+        </div> <!-- /.container -->
+
+        <hr class="verde" />
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 text-center">
+                    <div class="caption">
+                        <ul class="media-list">
+                        <li class="media">
+                            <div class="row">
+                                <div class="col-md-6 text-right">
+                                    <a href=# class="verde"><img src="static/images/organizacion.svg" height="100px" alt="...">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3><b>Organización</b></a></h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>
+                        Las formas de participación en el proyecto Canaima GNU/Linux son diversas, tanto para desarrolladores de GNU/Linux con experiencia como para recién llegados al mundo del Software Libre.
+                    </p>
+                    <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                    </div><!-- /.caption -->
+                </div><!-- /.col -->
+                <div class="col-sm-6 col-xs-12 text-center">
+                    <div class="caption">
+                        <ul class="media-list">
+                        <li class="media">
+                            <div class="row">
+                                <div class="col-md-6 text-right">
+                                    <a href=# class="verde"><img src="static/images/equipos.svg" height="100px" alt="...">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3><b>Equipos</b></a></h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>
+                        Si quieres formar parte de nuestra comunidad muy activa o darnos una mano haciendo de Canaima un mejor proyecto, canalizamos mucha maneras en las que puedes brindarnos tu ayuda.
+                    </p>
+                    <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                    </div><!-- /.caption -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+
+            <hr class="verde" />
+
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 text-center">
+                    <div class="caption">
+                        <ul class="media-list">
+                        <li class="media">
+                            <div class="row">
+                                <div class="col-md-6 text-right">
+                                    <a href=# class="verde"><img src="static/images/forja_canaima.svg" height="100px" alt="...">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3><b>Forja a Canaima</b></a></h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>
+                        Es el espacio colaborativo donde diversos chamanes, canaimeros y/o activistas en Canaima ayudan a forjar el proyecto usando lineamientos y herramientas que promueven la colaboración y mejoras continuas de los equipos de trabajos.
+                    </p>
+                    <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                    </div><!-- /.caption -->
+                </div><!-- /.col -->
+                <div class="col-sm-6 col-xs-12 text-center">
+                    <div class="caption">
+                        <ul class="media-list">
+                        <li class="media">
+                            <div class="row">
+                                <div class="col-md-6 text-right">
+                                    <a href=# class="verde"><img src="static/images/reuniones.svg" height="100px" alt="...">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3><b>Reuniones</b></a></h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>
+                        La comunidad Canaima realiza periódicamente diversos encuentros formales e informales a continuación como Cayapa Canaima, Cayapa Técnica, Días Canaima, FLISOL, CNSL, entre otros.
+                    </p>
+                    <p><a href="#" class="btn btn-default" role="button">Leer más</a></p>
+                    </div><!-- /.caption -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div> <!-- /.container -->
+
+        <div class="espacio_100">
+            <div class="hidden-sm hidden-xs" style="padding-left: 0px; padding-right: 0px">
+                <div class="row fondo-marron-claro">
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=# class="blanco"><b>Canaima</b></a></h3>
+                        <p><a href=# class="marron">Conozca Canaima</a></p>
+                        <p><a href=# class="marron">Características</a></p>
+                        <p><a href=# class="marron">¿Qué hay de nuevo?</a></p>
+                        <p><a href=# class="marron">Testimoniales</a></p>
+                        <p><a href=# class="marron">Casos de éxito</a></p>
+                    </div><!-- /.col -->
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=# class="blanco"><b>Soluciones</b></a></h3>
+                        <p><a href=# class="marron">Sector Gobierno</a></p>
+                        <p><a href=# class="marron">Sector Comunal</a></p>
+                        <p><a href=# class="marron">Geomática</a></p>
+                        <p><a href=# class="marron">Informática Forense</a></p>
+                    </div><!-- /.col -->
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=soporte.html class="blanco"><b>Soporte y Aprendizaje</b></a></h3>
+                        <p><a href=# class="marron">Necesito ayuda</a></p>
+                        <p><a href=# class="marron">Quiero aprender</a></p>
+                        <p><a href=# class="marron">Consultoría</a></p>
+                        <p><a href=# class="marron">Mercado de Servicios</a></p>
+                    </div><!-- /.col -->
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=# class="blanco"><b>Descargas</b></a></h3>
+                        <p><a href=# class="marron">Obtener Canaima</a></p>
+                        <p><a href=# class="marron">Obtener códigos fuentes</a></p>
+                        <p><a href=# class="marron">Cumplimientos del RNA</a></p>
+                    </div><!-- /.col -->
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=comunidad.html class="blanco"><b>Comunidad</b></a></h3>
+                        <p><a href=# class="marron">Unirse a Canaima</a></p>
+                        <p><a href=# class="marron">Estar conectado</a></p>
+                        <p><a href=# class="marron">Organización</a></p>
+                        <p><a href=# class="marron">Equipos</a></p>
+                        <p><a href=# class="marron">Forja</a></p>
+                        <p><a href=# class="marron">Reuniones</a></p>
+                        <p><a href=# class="marron">Grupo</a></p>
+                        <p><a href=# class="marron">Opinión</a></p>
+                        <p><a href=# class="marron">Galería de diseño</a></p>
+                    </div><!-- /.col -->
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        <h3><a href=# class="blanco"><b>Novedades</b></a></h3>
+                        <p><a href=# class="marron">Blog</b></a></p>
+                        <p><a href=# class="marron">Comunidad</a></p>
+                        <p><a href=# class="marron">Gobierno</a></p>
+                        <p><a href=# class="marron">Discusiones</a></p>
+                        <p><a href=# class="marron">Actividades</a></p>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+
+            </div><!-- /.col -->
+            <div class="hidden-md hidden-lg" style="padding-left: 0px; padding-right: 0px">
+                <div class="row fondo-marron-claro text-center">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#canaima" aria-expanded="false" aria-controls="collapseListGroup1">
+                            <b>Canaima</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="canaima" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Conozca Canaima</a></li>
+                            <li><a href=# class="marron">Características</a></li>
+                            <li><a href=# class="marron">¿Qué hay de nuevo?</a></li>
+                            <li><a href=# class="marron">Testimoniales</a></li>
+                            <li><a href=# class="marron">Casos de éxito</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#soluciones" aria-expanded="false" aria-controls="collapseListGroup2">
+                            <b>Soluciones</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="soluciones" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Sector Gobierno</a></li>
+                            <li><a href=# class="marron">Sector Comunal</a></li>
+                            <li><a href=# class="marron">Geomática</a></li>
+                            <li><a href=# class="marron">Informática Forense</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading3">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#soporte" aria-expanded="false" aria-controls="collapseListGroup3">
+                            <b>Soporte y Aprendizaje</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="soporte" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Necesito ayuda</a></li>
+                            <li><a href=# class="marron">Quiero aprender</a></li>
+                            <li><a href=# class="marron">Consultoría</a></li>
+                            <li><a href=# class="marron">Mercado de Servicios</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#descargas" aria-expanded="false" aria-controls="collapseListGroup4">
+                            <b>Descargas</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="descargas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Obtener Canaima</a></li>
+                            <li><a href=# class="marron">Obtener códigos fuentes</a></li>
+                            <li><a href=# class="marron">Cumplimientos del RNA</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading5">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#comunidad" aria-expanded="false" aria-controls="collapseListGroup5">
+                            <b>Comunidad</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="comunidad" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Unirse a Canaima</a></li>
+                            <li><a href=# class="marron">Estar conectado</a></li>
+                            <li><a href=# class="marron">Organización</a></li>
+                            <li><a href=# class="marron">Equipos</a></li>
+                            <li><a href=# class="marron">Forja</a></li>
+                            <li><a href=# class="marron">Reuniones</a></li>
+                            <li><a href=# class="marron">Grupo</a></li>
+                            <li><a href=# class="marron">Opinión</a></li>
+                            <li><a href=# class="marron">Galería de diseño</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="panel-heading" role="tab" id="collapseListGroupHeading6">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" href="#novedades" aria-expanded="false" aria-controls="collapseListGroup6">
+                            <b>Novedades</b>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="novedades" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                        <ul class="list-group">
+                            <li><a href=# class="marron">Blog</a></li>
+                            <li><a href=# class="marron">Comunidad</a></li>
+                            <li><a href=# class="marron">Gobierno</a></li>
+                            <li><a href=# class="marron">Discusiones</a></li>
+                            <li><a href=# class="marron">Actividades</a></li>
+                        </ul>
+                      </div>
+                  </div><!-- ./panel -->
+                </div><!-- ./row -->
+            </div><!-- ./hidden -->
+        </div><!-- ./espacio_100 -->
+        <div class="row fondo-verde-claro pie">
+            <div class="col-md-3 text-center">
+                <img alt="" src="static/images/canaimaGNU-LINUX_blanco.svg" height="auto"> 
+            </div>
+            <div class="col-md-6">
+                <p class="blanco">Canaima es auspiciado por la fundación CNTI.</p>
+                <p class="blanco">Aprende más sobre la <a href="cnti.gob.ve" class="blanco">fundación CNTI</a> y <a href="canaima.softwarelibre.gob.ve" class="blanco">Canaima</a></p>
+                <p class="blanco">Algunos derechos reservados. 2008 - 2014 CNTI y miembros de la Comunidad Canaima.</p>
+                <p class="blanco"><a href=# class="beige">Derechos de Autor</a> | <a href=# class="beige">Políticas de Privacidad</a> | <a href=# class="beige">Mapa del sitio</a> | <a href=# class="beige">Contacto</a></p>
+                <p class="blanco">El proyecto Canaima es mantenido y administrador por su comunidad.</p>
+                <p class="blanco">La fundación CNTI no es responsable por su contenido.</p>
+                <p>
+                    <img src="static/images/html5.svg" height="60px" alt="..."> 
+                    <img src="static/images/css3.svg" height="60px" alt="..."> 
+                    <img src="static/images/JQuery.svg" height="30px" alt="..."> 
+                    <img src="static/images/Plone.svg" height="30px" alt="..."> 
+                    <img src="static/images/Django.svg" height="30px" alt="..."> 
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p class="blanco"><b>Síguenos: </b></p>
+                <p class="blanco">
+                    <a class="blanco" href="https://twitter.com/CanaimaGNULinux">
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="https://www.facebook.com/groups/comunidadusuarioscanaima/">
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="https://plus.google.com/communities/101437842539655791555">
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </a>
+                </p>
+                <p class="blanco">
+                    <a class="blanco" href="http://www.youtube.com/user/canaimagnulinux">
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="http://www.flickr.com/search/?q=canaima+gnu+linux">
+                        <i class="fa fa-flickr fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="http://www.linkedin.com/company/733976">
+                        <i class="fa fa-linkedin-square fa-3x"></i>
+                    </a>
+                </p>
+                <p class="blanco">
+                    <a class="blanco" href="https://github.com/CanaimaGNULinux">
+                        <i class="fa fa-github-square fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="https://trello.com/canaimagnulinux">
+                        <i class="fa fa-trello fa-3x"></i>
+                    </a>
+                    <a class="blanco" href="http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo">
+                        <i class="fa fa-envelope-square fa-3x"></i>
+                    </a>
+                </p>
             </div>
         </div>
-
-        <div class="footer-verde">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="titulo-blanco">
-                        <img alt="" src="static/images/logo_blanco.png" />
-                    </div>
-                </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                        <div class="parrafo-blanco">
-                            <br />
-                            Canaima es auspiciado por la <a href="http://www.cnti.gob.ve/" class="link-marron-claro" title="fundaci&oacute;n CNTI">fundaci&oacute;n CNTI</a>.<br />
-                            Aprende m&aacute;s sobre la <a href="http://canaima.softwarelibre.gob.ve/canaima/relacion-cnti-canaima" class="link-marron-claro" title="fundaci&oacute;n CNTI y Canaima">fundaci&oacute;n CNTI y Canaima</a> <br />
-                            Algunos derechos reservados <img alt="" src="static/images/Copyleft.png" width='15' height='15'/> 2008 - 2013 CNTI y miembros de la comunidad Canaima. A menos que se diga lo contrario, esta todo el contenido incluido en este sitio Web est&aacute; bajo una licencia de <a href="http://creativecommons.org/licenses/by/3.0/deed.es" class="link-marron-claro" title="Creative Commons Attribution 3.0 Unported">Creative Commons Attribution 3.0 Unported</a>.<br />
-                            El Proyecto Canaima es mantenido y administrado por su comunidad. 
-                            La fundaci&oacute;n CNTI no es responsable por su contenido.<br />
-                            <div class="titulo-blanco">
-                                <a href="#" class="link-marron-claro" title="Derechos de autor">Derechos de autor</a> | 
-                                <a href="#" class="link-marron-claro" title="Pol&iacute;tica de Privacidad">Pol&iacute;tica de Privacidad</a> | 
-                                <a href="http://canaima.softwarelibre.gob.ve/sitemap" class="link-marron-claro" 
-                                   title="Mapa del sitio">Mapa del sitio</a> | 
-                                <a href="http://canaima.softwarelibre.gob.ve/contact-info" class="link-marron-claro" 
-                                   title="Contacto">Contacto</a><br />
-                            </div>
-                            <br />
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2">
-                                <a href="http://www.w3.org/html/logo/" title="Desarrollado HTML5 / estilos CSS3, Acceso a dispositivos, Efectos y gr&aacute;ficos 3D, Multimedia, Rendimiento e Integraci&oacute;n, y Sem&aacute;ntica">
-                                <img alt="Desarrollado HTML5 / estilos CSS3, Acceso a dispositivos, Efectos y gr&aacute;ficos 3D, Multimedia, Rendimiento e Integraci&oacute;n, y Sem&aacute;ntica" src="static/images/html5.png" />
-                                </a>
-                            </div>
-
-                            <div class="col-md-2">
-                                 <a href="http://www.w3.org/html/logo/" title="Desarrollado HTML5 / estilos CSS3, Acceso a dispositivos, Efectos y gr&aacute;ficos 3D, Multimedia, Rendimiento e Integraci&oacute;n, y Sem&aacute;ntica">
-                                 <img alt="Desarrollado HTML5 / estilos CSS3, Acceso a dispositivos, Efectos y gr&aacute;ficos 3D, Multimedia, Rendimiento e Integraci&oacute;n, y Sem&aacute;ntica" src="static/images/css3.png" />
-                                 </a>
-                            </div>
-
-                            <div class="col-md-2">
-                                 <a href="http://jquery.com/" title="jQuery, escribir menos, hacer mas">
-                                      <img alt="jQuery, escribir menos, hacer mas" src="static/images/jqery.png" />
-                                 </a>
-                            </div>
-                            <div class="col-md-2">
-                                 <a href="http://plone.org/" title="Plone, el mas longevo, poderoso, flexible, seguro y premiado sistema de gesti&oacute;n de contenido escrito en Python">
-                                 <img alt="Plone, el mas longevo, poderoso, flexible, seguro y premiado sistema de gesti&oacute;n de contenido escrito en Python" src="static/images/plone.png" />
-                                 </a>
-                            </div>
-                            <div class="col-md-2">
-                                 <a href="https://www.djangoproject.com/" title="Django, El framework Web para perfeccionistas con tiempos de entregas escrito en Python">
-                                      <img alt="Django, El framework Web para perfeccionistas con tiempos de entregas escrito en Python" 
-                                           src="static/images/django.png" />
-                                 </a>
-                            </div>
-                        </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-md-3">
-                        <div class="titulo-blanco">
-                            S&iacute;guenos
-                        </div>
-                        <div class="row-caja-logos">
-                            <div class="col-md-2">
-                                <a href="https://www.facebook.com/groups/comunidadusuarioscanaima/" 
-                                   title="Comunidad de la distribuci&oacute;n Canaima GNU/Linux en facebook.com">
-                                    <img alt="Comunidad de la distribuci&oacute;n Canaima GNU/Linux en facebook.com" 
-                                         src="static/images/facebook.png" />
-                                </a>
-                            </div>
-
-                            <div class="col-md-2">
-                                <a href="https://plus.google.com/communities/106620048522793947636" 
-                                   title="Canaima GNU/Linux en Google +">
-                                    <img alt="Canaima GNU/Linux en Google +" src="static/images/google+.png" />
-                                </a>
-                            </div>
-
-                            <div class="col-md-2">
-                                <a href="http://www.youtube.com/user/canaimagnulinux" 
-                                   title="Canaima GNU/Linux en Youtube">
-                                    <img alt="Canaima GNU/Linux en Youtube" src="static/images/youtube.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row-caja-logos"> 
-                            <div class="col-md-2">
-                                <a href="https://twitter.com/CanaimaGNULinux/" title="@CanaimaGNULinux en twiiter.com">
-                                    <img alt="@CanaimaGNULinux en twiiter.com" src="static/images/twitter.png" />
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="http://www.linkedin.com/company/733976" 
-                                   title="Canaima Distribuci&oacute;n GNU/Linux (CANAIMA GNU/Linux Distribution)">
-                                    <img alt="Canaima Distribuci&oacute;n GNU/Linux (CANAIMA GNU/Linux Distribution)" 
-                                         src="static/images/linkedin.png" />
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="http://www.flickr.com/groups/canaimagnulinux/" 
-                                   title="Canaima GNU/Linux en flickr.com">
-                                    <img alt="Canaima GNU/Linux en flickr.com" src="static/images/flickr.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row-caja-logos">
-                            <div class="col-md-2">
-                                <a href="http://identi.ca/canaimagnulinux" 
-                                   title="Canaima GNU/Linux en Identi.ca">
-                                    <img alt="Canaima GNU/Linux en Identi.ca" src="static/images/identik.png" />
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="https://www.ohloh.net/p/canaima-gnu-linux" 
-                                   title="Canaima GNU/Linux en Ohloh">
-                                    <img alt="Canaima GNU/Linux en Ohloh" src="static/images/ohlog.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <br /><br />
-                    </div>
-                </div><br />
-            </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        -->
+        
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
         </div>
 
-    </footer>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<!-- Bootstrap core CSS -->
+
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>
